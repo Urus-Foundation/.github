@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Documentation
+    url: https://github.com/Urus-Foundation/Urus/tree/main/documentation
+    about: Check the documentation before filing an issue — your question might already be answered.
+  - name: 💬 Discussions
+    url: https://github.com/Urus-Foundation/Urus/discussions
+    about: Ask questions, share ideas, and connect with the community.
+  - name: 🔒 Security Vulnerability
+    url: https://github.com/Urus-Foundation/Urus/blob/main/SECURITY.md
+    about: Please report security vulnerabilities responsibly. Do NOT create a public issue.
