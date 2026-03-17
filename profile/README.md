@@ -1,6 +1,6 @@
 <div align="center">
 
-# Urus Foundation
+<img src="https://raw.githubusercontent.com/Urus-Foundation/initial-resource/main/assets/banner_urus.png" width="600">
 
 **Building the future of systems programming — safe, simple, and portable.**
 
@@ -32,7 +32,7 @@ We believe systems programming shouldn't require choosing between safety and sim
 | **Faster than Python** | Compiles to native binary via C11 |
 | **More portable than Go** | Standard C11 — runs anywhere GCC runs |
 
-```urus
+```rust
 fn fibonacci(n: int) -> int {
     if n <= 1 {
         return n
@@ -47,37 +47,26 @@ fn main() {
 ```
 
 #### Compiler Pipeline
-
 ```
 Source (.urus) → Lexer → Parser (AST) → Sema (Type Check) → Codegen (C11) → GCC → Native Binary
 ```
-
-#### By the Numbers
-
-| Metric | Value |
-|--------|-------|
-| Compiler Size | ~464 KB |
-| Runtime Size | ~16 KB (header-only) |
-| Compiler LOC | ~4,200 |
-| Runtime LOC | ~430 |
-| External Dependencies | **Zero** (only GCC) |
-| Current Version | **v1.0.0 Stable** |
 
 ## 🗺️ Roadmap
 
 | Version | Highlights |
 |---------|-----------|
-| **v1.1.0** | Default parameters, enhanced error messages, warning system |
-| **v1.2.0** | Type aliases, Optional type, type inference |
-| **v2.0.0** | Methods (`impl` blocks), traits/interfaces, generics, closures, stdlib, package manager |
-| **v3.0.0** | Async/await, concurrency, WASM target, self-hosting compiler, LSP server |
+| **v0.3/1** | Default parameters, enhanced error messages, warning system |
+| **v0.4/1** | Type aliases, Optional type, type inference |
+| **v0.5/1** | Methods (`impl` blocks), traits/interfaces, generics, closures, stdlib, package manager |
+| **v2.0/1** | Async/await, concurrency, WASM target, self-hosting compiler, LSP server |
 
 ## 📦 Our Repositories
 
 | Repository | Description | Status |
 |-----------|-------------|--------|
-| [**Urus**](https://github.com/Urus-Foundation/Urus) | The Urus compiler and runtime | ✅ Stable v1.0.0 |
+| [**Urus**](https://github.com/Urus-Foundation/Urus) | The Urus compiler and runtime | ✅ Stable v0.2/2 (fixed) |
 | [**urus-treesitter**](https://github.com/Urus-Foundation/urus-treesitter) | Tree-sitter grammar for Urus (syntax highlighting & editor support) | 🔨 In Development |
+| [**editor-support**](https://github.com/Urus-Foundation/editor-support) | Editor extensions and plugins for the Urus Programming Language | ✅ Stable Vscode (v0.3.0), Acode (v0.3.0) |
 
 ## 🤝 Contributing
 
