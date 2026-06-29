@@ -1,42 +1,91 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Urus-Foundation/initial-resource/main/assets/banner_urus.png" width="600">
+<img src="https://raw.githubusercontent.com/Urus-Foundation/initial-resource/main/assets/banner_urus.png" width="700" alt="Urus Foundation Banner">
 
-**Building the future of systems programming — safe, simple, and portable.**
+# 🐂 Urus Foundation
 
-[![Website](https://img.shields.io/badge/Website-urusfoundation.org-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://github.com/Urus-Foundation)
-[![Email](https://img.shields.io/badge/Email-urusfoundation%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:urusfoundation@gmail.com)
-[![License](https://img.shields.io/badge/License-Apache_2.0-green?style=for-the-badge)](https://github.com/Urus-Foundation/Urus/blob/main/LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/Urus-Foundation/Urus?style=for-the-badge&logo=github&color=gold)](https://github.com/Urus-Foundation/Urus)
+### Building modern open-source software without boundaries.
 
----
+> **Languages • Libraries • Frameworks • AI • Games • Tools • Infrastructure • Research • Everything Open Source**
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3500&pause=1500&color=4FC3F7&center=true&vCenter=true&width=700&lines=Build+Anything.;Create+Without+Limits.;One+Foundation.+Infinite+Possibilities.;Open+Source+First." />
+
+<br>
+
+[![GitHub Organization](https://img.shields.io/badge/GitHub-Urus--Foundation-181717?style=for-the-badge&logo=github)](https://github.com/Urus-Foundation)
+[![License](https://img.shields.io/badge/License-Apache_2.0-success?style=for-the-badge)]
+[![Open Source](https://img.shields.io/badge/Open%20Source-Always-red?style=for-the-badge)]
+[![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge)]
 
 </div>
 
-## 🐂 About Us
+---
 
-**Urus Foundation** is an open-source organization dedicated to developing **Urus** — a modern, statically-typed programming language that combines **Rust-like safety** with **Python-like simplicity**, transpiling to portable **C11**.
+# 🌍 About Us
 
-We believe systems programming shouldn't require choosing between safety and simplicity. Urus bridges that gap with a clean, modern design that compiles to native binaries through standard C11 — running anywhere GCC runs.
+**Urus Foundation** is an independent open-source organization dedicated to building software that is modern, reliable, accessible, and useful for developers everywhere.
 
-## 🚀 Flagship Project
+Unlike organizations centered around a single product or ecosystem, **Urus Foundation has no project boundaries.**
 
-### [Urus Programming Language](https://github.com/Urus-Foundation/Urus)
+Our mission isn't to build *one* great project.
 
-> *Rust-like safety with Python-like simplicity, transpiling to C11.*
+Our mission is to build **many**.
+
+Whether it's a programming language, AI framework, game, operating system component, developer tool, or something the world hasn't imagined yet—
+
+**if it makes open source better, it belongs here.**
+
+---
+
+# ♾️ No Project Restrictions
+
+Open source has no limits.
+
+Neither do we.
+
+Projects under the **Urus Foundation** can be almost anything, including:
 
 | | |
-|---|---|
-| **Safer than C** | Reference counting, bounds checking, immutable by default |
-| **Simpler than Rust** | No borrow checker, no lifetimes |
-| **Faster than Python** | Compiles to native binary via C11 |
-| **More portable than Go** | Standard C11 — runs anywhere GCC runs |
+|:--|:--|
+| 🚀 Programming Languages | 🤖 Artificial Intelligence |
+| 📦 Libraries & SDKs | 🧩 Frameworks |
+| ⚙️ Compilers | 🔨 Build Systems |
+| 📚 Package Managers | 🛠 Developer Tools |
+| 💻 Desktop Applications | 📱 Mobile Applications |
+| 🌐 Web Platforms | ☁️ Cloud Software |
+| 🎮 Games | 🧱 Game Engines |
+| 🎨 Creative Software | 🧩 Game Mods & Modding Tools |
+| 🔐 Security Software | 🌍 Networking |
+| 🖥 Operating System Components | 📊 Data & Analytics |
+| 🔬 Research Projects | 🧪 Experimental Ideas |
+
+…and anything else that helps move the open-source ecosystem forward.
+
+> **No categories. No boundaries. Just great open-source software.**
+
+---
+
+# 🚀 Featured Projects
+
+## 🐂 Urus Programming Language
+
+*A modern systems programming language focused on simplicity, safety, and portability.*
+
+### Highlights
+
+- ⚡ Native performance
+- 🛡 Memory safety
+- 📦 Reference counting
+- 📏 Bounds checking
+- 🔒 Immutable by default
+- 🌍 Portable C11 backend
 
 ```rust
 fn fibonacci(n: int) -> int {
     if n <= 1 {
         return n
     }
+
     return fibonacci(n - 1) + fibonacci(n - 2)
 }
 
@@ -46,42 +95,120 @@ fn main() {
 }
 ```
 
-#### Compiler Pipeline
+Compiler Pipeline
+
 ```
-Source (.urus) → Lexer → Parser (AST) → Sema (Type Check) → Codegen (C11) → GCC → Native Binary
+Source (.urus)
+      │
+      ▼
+ Lexer
+      │
+      ▼
+ Parser
+      │
+      ▼
+ Semantic Analysis
+      │
+      ▼
+ C11 Code Generation
+      │
+      ▼
+ GCC / Clang
+      │
+      ▼
+ Native Binary
 ```
 
-## 🗺️ Roadmap
+---
 
-| Version | Highlights |
-|---------|-----------|
-| **v0.3/1** | Default parameters, enhanced error messages, warning system |
-| **v0.4/1** | Type aliases, Optional type, type inference |
-| **v0.5/1** | Methods (`impl` blocks), traits/interfaces, generics, closures, stdlib, package manager |
-| **v2.0/1** | Async/await, concurrency, WASM target, self-hosting compiler, LSP server |
+## 🌲 urus-treesitter
 
-## 📦 Our Repositories
+Official Tree-sitter grammar powering syntax highlighting, parsing, and editor integrations.
+
+---
+
+## 🧩 Editor Support
+
+Official editor extensions for the Urus ecosystem.
+
+- VS Code
+- Acode
+- More editors coming soon
+
+---
+
+# 📦 Repository Overview
 
 | Repository | Description | Status |
-|-----------|-------------|--------|
-| [**Urus**](https://github.com/Urus-Foundation/Urus) | The Urus compiler and runtime | ✅ Stable v0.2/2 (fixed) |
-| [**urus-treesitter**](https://github.com/Urus-Foundation/urus-treesitter) | Tree-sitter grammar for Urus (syntax highlighting & editor support) | 🔨 In Development |
-| [**editor-support**](https://github.com/Urus-Foundation/editor-support) | Editor extensions and plugins for the Urus Programming Language | ✅ Stable Vscode (v0.3.0), Acode (v0.3.0) |
+|------------|-------------|--------|
+| 🐂 **Urus** | Programming language compiler | ✅ Stable |
+| 🌲 **urus-treesitter** | Tree-sitter grammar | 🚧 Development |
+| 🧩 **editor-support** | Official editor extensions | ✅ Stable |
+| 🚀 **Future Projects** | Anything that benefits open source | ♾️ Unlimited |
 
-## 🤝 Contributing
+---
 
-We welcome contributions from developers of all experience levels! Here's how you can get involved:
+# ❤️ Our Philosophy
 
-- **🐛 Report Bugs** — Found an issue? [Open a bug report](https://github.com/Urus-Foundation/Urus/issues/new?template=bug_report.yml)
-- **💡 Suggest Features** — Have an idea? [Submit a feature request](https://github.com/Urus-Foundation/Urus/issues/new?template=feature_request.yml)
-- **📝 Improve Docs** — Help us make documentation clearer and more comprehensive
-- **🔧 Submit Code** — Check out our [Contributing Guide](https://github.com/Urus-Foundation/Urus/blob/main/CONTRIBUTING.md) to get started
+Every project under the Urus Foundation shares the same values.
 
-## 🏗️ Tech Stack
+- 🚀 Build with purpose.
+- ❤️ Open source first.
+- 🌍 Accessible to everyone.
+- ⚡ Performance matters.
+- 🛡 Reliability by design.
+- 🤝 Community over competition.
+
+Technology changes.
+
+Ideas evolve.
+
+But great software should always remain open.
+
+---
+
+# 🌱 Looking Forward
+
+Today, the Foundation may publish a programming language.
+
+Tomorrow it might release:
+
+- 🤖 an AI framework
+- 🎮 an indie game
+- 🧱 a game engine
+- 📦 a package manager
+- 🖥 a desktop environment
+- 🌐 a web framework
+- ☁️ cloud infrastructure
+- 🔬 research software
+
+Every project is different.
+
+Every project has the same goal:
+
+> **Making open source better for everyone.**
+
+---
+
+# 🤝 Contributing
+
+Whether you're fixing a typo, improving documentation, designing an icon, optimizing a compiler, or creating an entirely new project—
+
+**your contribution matters.**
+
+We welcome developers, designers, writers, researchers, students, and curious minds from everywhere.
+
+Together, we're building more than repositories.
+
+We're building an ecosystem.
+
+---
+
+# 🏗️ Technology
 
 <div align="center">
 
-![C](https://img.shields.io/badge/C11-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C11](https://img.shields.io/badge/C11-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![GCC](https://img.shields.io/badge/GCC-A42E2B?style=for-the-badge&logo=gnu&logoColor=white)
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -91,26 +218,24 @@ We welcome contributions from developers of all experience levels! Here's how yo
 
 </div>
 
-## 🌟 Inspired By
-
-Urus takes inspiration from the best ideas in modern language design:
-
-- **Rust** — Enums, pattern matching, `Result` type, immutability-first
-- **Go** — Simplicity, fast compilation, minimal footprint
-- **Zig** — Transpile-to-C philosophy, minimal runtime
-- **Python** — F-string interpolation, readable syntax
-
-## 📬 Get in Touch
-
-- **Email:** [urusfoundation@gmail.com](mailto:urusfoundation@gmail.com)
-- **GitHub:** [github.com/Urus-Foundation](https://github.com/Urus-Foundation)
-
 ---
 
 <div align="center">
 
-**⭐ If you find Urus interesting, give us a star — it helps the project grow!**
+## 🌍 One Foundation.
 
-*Built with passion by the Urus Foundation team.*
+# ♾️ Infinite Possibilities.
+
+### **If you can imagine it, you can build it.**
+
+_Open source isn't limited by categories._
+
+**Neither are we.**
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&duration=4000&pause=2000&color=58A6FF&center=true&vCenter=true&width=700&lines=Build+Anything.;Share+Everything.;Open+Source+Forever." />
+
+<br>
+
+**Built with ❤️ by developers, for developers.**
 
 </div>
